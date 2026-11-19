@@ -1,6 +1,6 @@
 try:
-    a = int(input("Enter a number: "))
-    b = int(input("Enter another number: "))
-    print(f"Sum of {a} and {a} is {a+b}")
+    a = int(input("Введите 1-е число: "))
+    b = int(input("Введите 2-е число: "))
+    print(f"Сумма {a} и {a} равна {a+b}")
 except ValueError:
-    print("Invalid input")
+    print("Ошибка ввода")
